@@ -10,7 +10,7 @@ Blue	(255,0,0)
 Green	(0,255,0)
 Red	(0,0,255)
 """
-blank[:] = 0,0,255
+blank[200:300,300:400] = 0,0,255
 cv.imshow('red', blank)
 
 cv.waitKey(0)
