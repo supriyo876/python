@@ -47,7 +47,7 @@ while True:
     isTrue, frame = capture.read()
 
     if not isTrue:
-        break
+        break 
 
     frame_resized = rescaleFrame(frame)
     last_frame = frame_resized  # 👈 save it
