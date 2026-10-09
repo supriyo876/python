@@ -44,3 +44,5 @@ print("Number of faces detected:", len(faces))
 cv.imshow("Face Detection", image)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+
